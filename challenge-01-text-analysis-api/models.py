@@ -1,5 +1,5 @@
 from datetime import datetime
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class TextRequest(BaseModel):
@@ -13,4 +13,4 @@ class TextResponse(BaseModel):
 class HistoryRecord(BaseModel):
     text: str
     letter_count: int
-    created_at: datetime = datetime.now()
+    created_at: datetime = Field(default_factory=datetime.now)

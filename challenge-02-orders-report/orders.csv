@@ -1,0 +1,13 @@
+order_id,customer,category,amount,created_at
+1,Ana,books,35.50,2026-01-05
+2,Bruno,electronics,199.90,2026-01-07
+3,Ana,electronics,89.00,2026-01-09
+4,Carla,Books,12.25,2026-01-12
+5,Bruno,games,abc,2026-01-13
+6,Diego,games,59.99,2026-01-15
+7,,books,20.00,2026-01-16
+8,Carla,electronics,-15.00,2026-01-18
+9,Ana,games,120.00,2026-01-20
+10,Diego,books,18.75,2026-13-01
+11,Bruno,books,42.00,2026-01-22
+12,Carla,games,75.40,2026-01-25

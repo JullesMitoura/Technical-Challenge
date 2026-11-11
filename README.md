@@ -1,68 +1,25 @@
 # Technical Challenge
 
-> ⚠️ **AI tools are not recommended.** The goal is not to get everything right, but to demonstrate general knowledge of Python and API development.
+> ⚠️ **AI tools are not recommended.** The goal is not to get everything right, but to demonstrate general knowledge of Python.
 
-## Objective
+This repository contains independent Python challenges. Each one lives in its own folder, with its own instructions and dependencies.
 
-Complete the `app.py` file by implementing two REST API endpoints using FastAPI. All other files are already provided.
+## Challenges
 
-## Project Structure
+| # | Challenge | Topic | File to complete |
+| --- | --- | --- | --- |
+| 01 | [Text Analysis API](challenge-01-text-analysis-api/) | REST API with FastAPI and Pydantic | `app.py` |
+| 02 | [Orders Report](challenge-02-orders-report/) | Data processing with the standard library | `report.py` |
 
-| File | Description |
-| --- | --- |
-| `app.py` | ⚡ **Your focus**: API endpoints (file to be completed) |
-| `processing.py` | Text processing functions |
-| `database.py` | In-memory storage and history |
-| `models.py` | Pydantic models: request, response and record |
-| `requirements.txt` | Project dependencies |
+## How it works
 
-## Endpoints
-
-### `POST /analyze`
-
-Receives a text and returns the character count. The analysis must be saved to history.
-
-Request:
-
-```json
-{ "text": "Hello, world!" }
-```
-
-Response:
-
-```json
-{ "letter_count": 12 }
-```
-
-### `GET /history`
-
-Returns all analyses performed since the application started.
-
-Response:
-
-```json
-[{ "text": "Hello, world!", "letter_count": 12, "created_at": "..." }]
-```
-
-## Requirements
-
-- Use FastAPI as the framework
-- Import and use the models already defined in `models.py`
-- Import and use the processing function from `processing.py`
-- Import and use the in-memory history from `database.py`
-
-## How to run
-
-```bash
-pip install -r requirements.txt
-uvicorn app:app --reload
-```
-
-Interactive docs available at http://localhost:8000/docs
+1. Open the folder of the challenge you were assigned and read its `README.md`
+2. Complete only the file marked as your focus: all other files are already provided
+3. Follow the "How to run" section of the challenge to check your solution
 
 ## What will be evaluated
 
-- Correctness of both endpoints
+- Correctness
 - Proper use of the provided models and functions
 - Code clarity and organization
 - Basic Python best practices (type hints, naming)
