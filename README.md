@@ -9,7 +9,7 @@ This repository contains independent Python challenges. Each one lives in its ow
 | # | Challenge | Topic | Your focus |
 | --- | --- | --- | --- |
 | 01 | [Text Analysis API](challenge-01-text-analysis-api/) | Building a REST API with FastAPI and Pydantic | Complete `app.py` |
-| 02 | [Bug Hunt](challenge-02-bug-hunt/) | Reading code and understanding how Python behaves | Fix `cart.py` and fill in `NOTES.md` |
+| 02 | [Library System](challenge-02-library-system/) | Object-oriented programming and data structures | Complete `library.py` |
 
 ## How it works
 
