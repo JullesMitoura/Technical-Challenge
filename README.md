@@ -6,16 +6,16 @@ This repository contains independent Python challenges. Each one lives in its ow
 
 ## Challenges
 
-| # | Challenge | Topic | File to complete |
+| # | Challenge | Topic | Your focus |
 | --- | --- | --- | --- |
-| 01 | [Text Analysis API](challenge-01-text-analysis-api/) | REST API with FastAPI and Pydantic | `app.py` |
-| 02 | [Orders Report](challenge-02-orders-report/) | Data processing with the standard library | `report.py` |
+| 01 | [Text Analysis API](challenge-01-text-analysis-api/) | Building a REST API with FastAPI and Pydantic | Complete `app.py` |
+| 02 | [Bug Hunt](challenge-02-bug-hunt/) | Reading code and understanding how Python behaves | Fix `cart.py` and fill in `NOTES.md` |
 
 ## How it works
 
 1. Open the folder of the challenge you were assigned and read its `README.md`
-2. Complete only the file marked as your focus: all other files are already provided
-3. Follow the "How to run" section of the challenge to check your solution
+2. Work only on the files marked as your focus: all other files are already provided
+3. Follow the instructions of the challenge to run and check your solution
 
 ## What will be evaluated
 
